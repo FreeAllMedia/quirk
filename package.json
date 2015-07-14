@@ -1,0 +1,25 @@
+{
+  "name": "quirk",
+  "version": "0.0.0",
+  "description": "A helper for pre-setting attributes on objects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FreeAllMedia/quirk.git"
+  },
+  "keywords": [
+    "Attributes",
+    "preset",
+    "before",
+    "advance"
+  ],
+  "author": "FreeAllMedia, LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FreeAllMedia/quirk/issues"
+  },
+  "homepage": "https://github.com/FreeAllMedia/quirk#readme"
+}
