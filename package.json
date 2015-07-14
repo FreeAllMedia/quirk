@@ -1,25 +1,47 @@
 {
   "name": "quirk",
-  "version": "0.0.0",
-  "description": "A helper for pre-setting attributes on objects.",
+  "version": "0.0.1",
+  "description": "A helper for setting attributes on an object in advance.",
   "main": "index.js",
   "scripts": {
     "test": "gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FreeAllMedia/quirk.git"
+    "url": "https://github.com/FreeAllMedia/quirk.git"
   },
   "keywords": [
-    "Attributes",
-    "preset",
-    "before",
-    "advance"
+    "quirk"
   ],
-  "author": "FreeAllMedia, LLC",
+  "author": "Free All Media, LLC",
+  "contributors": [],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/FreeAllMedia/quirk/issues"
   },
-  "homepage": "https://github.com/FreeAllMedia/quirk#readme"
+  "homepage": "https://github.com/FreeAllMedia/quirk",
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "^5.5.6",
+    "babel-eslint": "^3.1.20",
+    "eslint": "^0.24.0",
+    "chai": "^3.0.0",
+    "coveralls": "^2.11.2",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-istanbul": "^0.10.0",
+    "gulp-mocha": "^2.1.1",
+    "karma": "^0.12.36",
+    "karma-browserify": "^4.2.1",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^0.1.10",
+    "karma-detect-browsers": "^2.0.0",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-firefox-launcher": "^0.1.6",
+    "karma-ie-launcher": "^0.2.0",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "karma-safari-launcher": "^0.1.1",
+    "karma-sauce-launcher": "^0.2.11",
+    "mocha": "^2.2.5"
+  }
 }
