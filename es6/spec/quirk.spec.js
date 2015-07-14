@@ -39,6 +39,8 @@ describe("Quirk", () => {
 			}
 		};
 
+		quirk.addAttributes(object);
+
 		object.getSetCombo = 40;
 
 		object.someValue.should.eql(50);
